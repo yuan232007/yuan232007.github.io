@@ -66,7 +66,7 @@
 
 <script type="text/javascript" id="hexo.configuration">
   var CONFIG = {
-    scheme: '',
+    scheme: 'Mist',
     sidebar: 'post',
     motion: true
   };
@@ -128,7 +128,7 @@
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu menu-left">
       
         
         <li class="menu-item menu-item-home">
@@ -180,12 +180,43 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-guestbook">
+          <a href="/guestbook" rel="section">
+            
+              <i class="menu-item-icon fa fa-question-circle fa-fw"></i> <br />
+            
+            留言
+          </a>
+        </li>
+      
 
       
       
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  
+  <form class="site-search-form">
+    <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+  </form>
+
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'S-JDbGmSWN3k7HxpWrSq','2.0.0');
+</script>
+
+
+
+    </div>
   
 </nav>
 
@@ -202,13 +233,14 @@
     
       <div class="tag-cloud">
         <div class="tag-cloud-title">
-            暂无标签
+            目前共计 2 个标签
         </div>
         <div class="tag-cloud-tags">
-          
+          <a href="/tags/估算/" style="font-size: 12px; color: #ccc">估算</a> <a href="/tags/开发成本/" style="font-size: 12px; color: #ccc">开发成本</a>
         </div>
       </div>
     
+
   </div>
 
 
@@ -241,8 +273,8 @@
 
       <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="/images/headimage.jpg" alt="终端袁" itemprop="image"/>
-          <p class="site-author-name" itemprop="name">终端袁</p>
+          <img class="site-author-image" src="/images/headimage.jpg" alt="斗转圣帝" itemprop="image"/>
+          <p class="site-author-name" itemprop="name">斗转圣帝</p>
         </div>
         <p class="site-description motion-element" itemprop="description">卓越的人一大优点是：在不利与艰难的遭遇里百折不饶</p>
         <nav class="site-state motion-element">
@@ -255,14 +287,14 @@
 
           <div class="site-state-item site-state-categories">
             <a href="/categories">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">1</span>
               <span class="site-state-item-name">分类</span>
               </a>
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
@@ -277,7 +309,7 @@
               <span class="links-of-author-item">
                 <a href="https://github.com/yuan232007" target="_blank">
                   
-                    <i class="fa fa-globe"></i> github
+                    <i class="fa fa-github"></i> github
                   
                 </a>
               </span>
@@ -285,7 +317,7 @@
               <span class="links-of-author-item">
                 <a href="http://weibo.com/yuanshuqiao" target="_blank">
                   
-                    <i class="fa fa-globe"></i> weibo
+                    <i class="fa fa-weibo"></i> weibo
                   
                 </a>
               </span>
@@ -293,7 +325,7 @@
               <span class="links-of-author-item">
                 <a href="http://www.cnblogs.com/it-ysq" target="_blank">
                   
-                    <i class="fa fa-globe"></i> cnblogs
+                    <i class="fa fa-twitter"></i> cnblogs
                   
                 </a>
               </span>
@@ -328,20 +360,8 @@
   <span class="with-love">
     <i class="icon-next-heart fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">终端袁</span>
+  <span class="author" itemprop="copyrightHolder">斗转圣帝</span>
 </div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT
-  </a>
-</div>
-
 
 
       </div>
@@ -356,7 +376,7 @@
   
 
   
-    
+  
 
   
     
@@ -378,8 +398,8 @@
      
 
 
-    
   
+
 
   
   <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
@@ -428,6 +448,30 @@
 
 
   
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"godanimal-com"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+    
+     
+
+
+  
+
   
 
 </body>

@@ -36,6 +36,7 @@ menu:
   archives: /archives
   tags: /tags
   #commonweal: /404.html
+  guestbook: /guestbook
 
 
 # Enable/Disable menu icons.
@@ -61,7 +62,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -90,10 +91,10 @@ sidebar: post
 social_icons:
   enable: true
   # Icon Mappings
-  GitHub: github
-  Twitter: twitter
-  Weibo: weibo
-  Cnblogs: cnblogs
+  github: github
+  #Twitter: twitter
+  weibo: weibo
+  cnblogs: twitter
 
 
 # Sidebar Avatar

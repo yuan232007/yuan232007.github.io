@@ -6,7 +6,7 @@
 title: 斗转圣帝博客
 subtitle: 自由
 description: 卓越的人一大优点是：在不利与艰难的遭遇里百折不饶
-author: 终端袁
+author: 斗转圣帝
 language: zh-Hans
 timezone: Asia/Shanghai
 
@@ -79,6 +79,15 @@ social:
 # title, chinese available
 links_title: Links
 # links
+
+# hexo sitemap网站地图
+sitemap:
+path: sitemap.xml
+baidusitemap:
+path: baidusitemap.xm
+
+#swiftype_key
+swiftype_key: S-JDbGmSWN3k7HxpWrSq
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
