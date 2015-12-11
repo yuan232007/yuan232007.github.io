@@ -149,8 +149,8 @@ scroll_to_more: true
 
 # Automatically Excerpt
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 100
 
 # Use Lato font
 use_font_lato: true

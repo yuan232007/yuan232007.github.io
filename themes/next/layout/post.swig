@@ -7,7 +7,6 @@
 
 {% block page_class %}page-post-detail{% endblock %}
 
-
 {% block content %}
 
   <div id="posts" class="posts-expand">
@@ -28,7 +27,6 @@
       </div>
     </div>
  </div>
-  </div>
 {% endblock %}
 
 {% block sidebar %}
