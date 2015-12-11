@@ -6,6 +6,8 @@ categories:
 tags:
 - 开发成本
 - 估算
+visitcount:
+- 访问量
 ---
 {% asset_img headimage.jpg This is an headimage image %}
 1. 招聘一个开发者的成本

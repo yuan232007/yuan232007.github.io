@@ -90,7 +90,12 @@
             </span>
             {% endif %}
           {% endif %}
-
+        {% if post.visitcount %}
+	    &nbsp; | &nbsp; 
+            <span id="post-category">
+  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+	    </span>
+          {% endif %}
           {% if not is_index and theme.facebook_sdk.enable and theme.facebook_sdk.like_button %}
             &nbsp; | &nbsp;
             <div class="fb-like" data-layout="button_count" data-share="true"></div>
