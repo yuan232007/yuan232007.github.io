@@ -93,6 +93,6 @@ swiftype_key: zbDxJuqxH-hvitTopMmE
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/yuan232007/yuan232007.github.io
+  repository: git@github.com:yuan232007/yuan232007.github.io.git
   branch: master
   message: commit init code
